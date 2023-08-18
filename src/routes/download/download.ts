@@ -15,7 +15,7 @@ import crypto from "crypto";
 
 var router = express.Router();
 
-var serviceAccount = require("../../credentials.json");
+//var serviceAccount = require("../../credentials.json");
 
 router.use(express.json());
 

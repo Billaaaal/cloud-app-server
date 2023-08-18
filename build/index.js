@@ -15,7 +15,7 @@ const newfolder_1 = __importDefault(require("./routes/newfolder/newfolder"));
 const rename_1 = __importDefault(require("./routes/rename/rename"));
 const Delete_1 = __importDefault(require("./routes/delete/Delete"));
 const download_1 = __importDefault(require("./routes/download/download"));
-var serviceAccount = require("./credentials.json");
+var serviceAccount = require("credentials.json");
 //
 //console.log("Hello world !");
 firebase_admin_1.default.initializeApp({

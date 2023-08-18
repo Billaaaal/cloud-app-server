@@ -4,7 +4,7 @@ import { readdirSync, rmSync, writeFileSync, mkdirSync, existsSync } from "fs";
 
 var router = express.Router();
 
-var serviceAccount = require("../../credentials.json");
+//var serviceAccount = require("../../credentials.json");
 
 function createFolderInDB(uid: string, path: string, folderName: string) {
   var db = admin.database();
