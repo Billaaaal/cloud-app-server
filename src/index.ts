@@ -26,7 +26,8 @@ admin.initializeApp({
 
 const app = express();
 
-const port = 5000;
+//const port = 5000;
+const port = process.env.PORT || 3000;
 
 //app.use(express.json({limit: '5000mb'}));
 
